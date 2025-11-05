@@ -37,12 +37,9 @@ python Bernstein_Vazirani.py
 ## Programming Tasks (for students)
 1. **Change the secret string `s`** and verify the measured output matches `s`.  
 2. **Modify the oracle** to include an additional constant bit `b` (i.e., implement `f(x) = s·x ⊕ b`) and show how `b` affects the ancilla only.  
-3. **Run on a real IBM backend** using `qiskit_ibm_runtime` and compare results with simulator.  
+3. **Run on a real IBM backend** using `qiskit_ibm_runtime` and compare results with the simulator (Optional).  
 4. **Add noise** via `qiskit_aer.noise.NoiseModel` and analyze robustness.  
 5. **Create a notebook** that explains each step with visualizations and markdown.
-
-## License
-Add a license of your choice (e.g., MIT) by creating a `LICENSE` file.
 
 ## References
 - Qiskit Textbook: Bernstein–Vazirani — https://qiskit.org/textbook/ch-algorithms/bernstein-vazirani.html
